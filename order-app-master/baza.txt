@@ -1,0 +1,15 @@
+1; Tristan i Izolda; Romans; 12.00; Odbedzie sie 15 czerwca o godzinie 16:30
+2; Romeo i Julia; Romans; 15.00; Odbedzie sie 15 czerwca o godzinie 18:30
+3; Burza; Romans; 10.50; Odbedzie sie 15 czerwca o godzinie 17:15
+4; Opowiesc zimowa; Romans; 11.50; Odbedzie sie 15 czerwca o godzinie 20:30
+5; Loves Labours Won; Romans; 20.00; Odbedzie sie 15 czerwca o godzinie 19:30
+6; Zaby; Komedia; 12; Odbedzie sie 15 czerwca o godzinie 16:15
+7; Chmury; Komedia; 11; Odbedzie sie 15 czerwca o godzinie 16:00
+8; Ptaki zbozowe; Komedia; 11.50; Odbedzie sie 15 czerwca o godzinie 18:45
+9; Osy; Komedia; 10; Odbedzie sie 15 czerwca o godzinie 15:00
+10; Dionizje; Komedia; 13; Odbedzie sie 15 czerwca o godzinie 16:30
+11; Antygona; Tragedia; 17; Odbedzie sie 15 czerwca o godzinie 10:45
+12; Krol Edyp; Tragedia; 19.50; Odbedzie sie 15 czerwca o godzinie 11:15
+13; Medea; Tragedia; 18; Odbedzie sie 15 czerwca o godzinie 17:45
+14; Elektra; Tragedia; 20; Odbedzie sie 15 czerwca o godzinie 16:30 
+15; Alkestis; Tragedia; 18.50; Odbedzie sie 15 czerwca o godzinie 14:00

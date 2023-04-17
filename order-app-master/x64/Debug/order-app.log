@@ -1,0 +1,27 @@
+﻿  order-app.cpp
+C:\Users\Anggmar\source\repos\order-app-master\order-app.cpp(2,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Anggmar\source\repos\order-app-master\OrderApp.h(14,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Anggmar\source\repos\order-app-master\OrderApp.h(15,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Anggmar\source\repos\order-app-master\OrderApp.h(51,1): warning C4267: "argument": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Anggmar\source\repos\order-app-master\OrderApp.h(61,1): warning C4267: "argument": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Anggmar\source\repos\order-app-master\OrderApp.h(81,1): warning C4267: "argument": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Anggmar\source\repos\order-app-master\OrderApp.h(91,1): warning C4267: "argument": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Anggmar\source\repos\order-app-master\order-app.cpp(3,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Anggmar\source\repos\order-app-master\order-app.cpp(4,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+  order-app.vcxproj -> C:\Users\Anggmar\source\repos\order-app-master\x64\Debug\order-app.exe

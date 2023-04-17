@@ -1,0 +1,26 @@
+﻿  order-app.cpp
+C:\Users\Anggmar\Desktop\nie używane skróty pulpitu\PPK\order-app-master\order-app.cpp(2,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Anggmar\Desktop\nie używane skróty pulpitu\PPK\order-app-master\OrderApp.h(14,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Anggmar\Desktop\nie używane skróty pulpitu\PPK\order-app-master\OrderApp.h(15,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+C:\Users\Anggmar\Desktop\nie używane skróty pulpitu\PPK\order-app-master\OrderApp.h(46,1): warning C4267: "argument": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Anggmar\Desktop\nie używane skróty pulpitu\PPK\order-app-master\OrderApp.h(56,1): warning C4267: "argument": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Anggmar\Desktop\nie używane skróty pulpitu\PPK\order-app-master\OrderApp.h(76,1): warning C4267: "argument": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Anggmar\Desktop\nie używane skróty pulpitu\PPK\order-app-master\OrderApp.h(86,1): warning C4267: "argument": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Anggmar\Desktop\nie używane skróty pulpitu\PPK\order-app-master\order-app.cpp(3,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
+  order-app.vcxproj -> C:\Users\Anggmar\Desktop\nie używane skróty pulpitu\PPK\order-app-master\x64\Debug\order-app.exe
