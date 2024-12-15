@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container {
+    display: flex; /* Układ główny w poziomie */
+    flex-direction: row; /* SVG i kontrolki obok siebie */
+    justify-content: center; /* Wyrównanie do środka */
+    align-items: flex-start; /* Wyrównanie do góry */
+    gap: 20px; /* Odstęp między SVG a kontrolkami */
+    margin-top: 20px;
+    width: 100%; /* Wypełnienie szerokości */
+}
+
+.svg-container {
+    display: flex;
+    flex-direction: column; /* Ustawienie tytułu i przycisków nad SVG */
+    align-items: center; /* Wyrównanie do środka */
+}
+
+svg {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 800px;
+    height: 600px;
+}
+
+.command-row,
+.file-row {
+    display: flex;
+    justify-content: center; /* Wyrównanie elementów w jednej linii */
+    gap: 10px; /* Odstęp między elementami */
+    margin-bottom: 10px; /* Odstęp między wierszami */
+}
+
+input[type="text"], input[type="file"] {
+    margin: 0;
+    padding: 5px;
+    width: 300px;
+}
+
+button {
+    padding: 3px 6px; /* Mniejszy padding dla przycisków */
+    font-size: 12px; /* Mniejsza czcionka */
+}
+
+svg > * {
+    cursor: grab;
+}
+
+svg > *.dragging {
+    cursor: grabbing;
+}
+
+#controls div {
+    margin-bottom: 5px; /* Mniejszy odstęp między kontrolkami */
+    padding: 5px; /* Zmniejszony padding wewnątrz kontrolki */
+    background-color: #fafafa; /* Jaśniejszy kolor tła */
+    border: 1px solid #ddd; /* Subtelna ramka */
+    width: 95%; /* Zmniejszona szerokość */
+    border-radius: 3px; /* Mniejsze zaokrąglenie */
+    font-size: 12px; /* Mniejsza czcionka */
+}
+
+#controlsContainer {
+    width: 280px; /* Zmniejszona szerokość kontenera */
+    padding: 8px; /* Mniejszy padding */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05); /* Delikatniejszy cień */
+}
+
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.function-buttons {
+    width: 200px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.function-buttons h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.function-buttons button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.function-buttons button:hover {
+    background-color: #d9d9d9;
+}
+
+.drawing-buttons {
+    width: 200px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.drwaing-buttons h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.drawing-buttons button {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.drawing-buttons button:hover {
+    background-color: #d9d9d9;
+}
+
+.control-pair {
+    display: flex;
+    align-items: center; /* Wyrównanie elementów w pionie */
+    gap: 5px; /* Zmniejszony odstęp między label a input */
+    margin-bottom: 5px; /* Mniejszy odstęp między liniami */
+}
+
+.control-pair label {
+    width: 90px; /* Mniejsza szerokość label */
+    font-size: 12px; /* Mniejsza czcionka */
+    text-align: left; /* Wyrównanie tekstu do lewej */
+    font-weight: normal; /* Lżejsza czcionka */
+}
+
+.control-pair input {
+    flex: 1; /* Input wypełnia pozostałe miejsce */
+    padding: 3px; /* Mniejszy padding */
+    font-size: 12px; /* Mniejsza czcionka */
+}
+
+.control-buttons {
+    text-align: center; /* Wyrównanie przycisku na środku */
+    margin-top: 5px;
+}
+
+.control-buttons button {
+    padding: 4px 8px; /* Mniejszy padding */
+    font-size: 12px;
+    border-radius: 3px; /* Mniejsze zaokrąglenie */
+}

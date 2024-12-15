@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Drawing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Sekcja z przyciskami bazowych funkcji -->
+        <div class="function-buttons">
+            <h2>Funkcje z edycją</h2>
+            <button onclick="drawParabola(300, 300, 0.01)">Parabola</button>
+            <button onclick="drawNegativeParabola(300, 300, 0.01)">Negatywna Parabola</button>
+            <button onclick="drawPositiveLinearFunction(300, 300, 1)">Funkcja Liniowa</button>
+            <button onclick="drawNegativeLinearFunction(300, 300, -1)">Negatywna Funkcja Liniowa</button>
+            <button onclick="drawPositiveTangent(400, 300, 50)">Tangens</button>
+            <button onclick="drawPositiveCotangent(400, 300, 50)">Cotangens</button>
+            <button onclick="drawPositiveSine(100, 300, 50, 100)">Sinus</button>
+            <button onclick="drawPositiveCosine(100, 300, 50, 100)">Cosinus</button>
+            <button onclick="drawPolynomial([1, 2, 0, 0], 300, 300)">Wielomian</button>
+            <button onclick="drawPositiveParabolaLeftArm(300,300,0.01)">Lewe Ramie Paraboli Pozytywnej</button>
+            <button onclick="drawPositiveParabolaRightArm(300,300,0.01)">Prawe Ramie Paraboli Pozytywnej</button>
+            <button onclick="drawNegativeParabolaLeftArm(300,300,0.01)">Lewe Ramie Paraboli Negatywnej</button>
+            <button onclick="drawNegativeParabolaRightArm(300,300,0.01)">Prawe Ramie Paraboli Negatywnej</button>
+            <button onclick="drawNegativeCotangent(400, 300, 50)">Negatywny Cotangens</button>
+            <button onclick="drawNegativeTangent(400, 300, 50)">Negatywny Tangens</button>
+            <button onclick="drawNegativeSine(100, 300, 50, 100)">Negatywny Sinus</button>
+            <button onclick="drawNegativeCosine(100, 300, 50, 100)">Negatywny Cosinus</button>
+            <button onclick="drawConstantLinearFunction(100,400,200)">Stała Funckja Liniowa</button>
+        </div>
+
+        <div class="drawing-buttons">
+            <h3>Funkcje Rysujące</h3>
+            <button onclick="drawXAxis()">Oś X</button>
+            <button onclick="drawYAxis()">Oś Y</button>
+            <button onclick="drawPoint(250,200,5)">Punkt</button>
+            <button onclick="drawXAsymptote(300)">Asymptota X</button>
+            <button onclick="drawYAsymptote(300)">Asymptota Y</button>
+            <button onclick="drawXTick(250,200,10)">Tick X</button>
+            <button onclick="drawYTick(250,200,10)">Tick Y</button>
+            <button onclick="drawXArrow(250,200,50)">Strzałka X</button>
+            <button onclick="drawYArrow(250,200,50)">Strzałka Y</button>
+        </div>
+    
+        <!-- Sekcja z SVG i przyciskami -->
+        <div class="svg-container">
+            <h1>SVG Drawing App</h1>
+            <div class="command-row">
+                <input type="text" id="commandInput" placeholder="Wpisz komendę">
+                <button id="drawButton">Rysuj</button>
+                <button id="clearButton">Wyczyść</button>
+                <button id="saveButton">Zapisz</button>
+            </div>
+            <div class="file-row">
+                <input type="file" id="fileInput" accept=".txt">
+                <button id="loadButton">Wczytaj z pliku</button>
+            </div>
+            <svg id="svgCanvas" width="800" height="600"></svg>
+        </div>
+    
+        <!-- Sekcja z kontrolkami -->
+        <div id="controlsContainer">
+            <h2>Modyfikuj Funkcje</h2>
+            <div id="controls">
+                <!-- Dynamiczne kontrolki będą dodawane tutaj -->
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
